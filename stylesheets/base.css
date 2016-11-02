@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#eee;
 }
 
 h3, h4, h5, h6 {
@@ -125,6 +125,9 @@ hr {
 
 footer {
   -webkit-font-smoothing:subpixel-antialiased;
+  border-top: 1px dashed white;
+  margin-top: 34px;
+  padding-top: 55px;
 }
 
 @media print, screen and (max-width: 960px) {
