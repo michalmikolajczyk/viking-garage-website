@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #000;
   font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#eee;
   font-weight:400;
@@ -133,14 +133,22 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
     margin:0;
+  }
+
+  div.wrapper > * {
+    padding-left: 34px;
+    padding-right: 34px;
   }
 
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    padding-top:20px;
+    padding-bottom:20px;
     margin:0 0 20px;
   }
 
@@ -153,10 +161,6 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
   }
 
   pre, code {

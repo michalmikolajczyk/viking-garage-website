@@ -28,12 +28,22 @@
 .call-to-action {
   font-size: 31px;
   text-decoration: underline;
-  margin: 89px
+  margin: 89px 0px;
 }
 
 .early-stage-warning {
-  color: #CC3232;
   text-align: center;
-  margin: 55px;
+  margin: 55px 0;
 }
 
+.early-stage-warning strong {
+  color: #CC3232;
+}
+
+.off-white {
+  color: #eee;
+}
+
+.underline {
+  text-decoration: underline;
+}
