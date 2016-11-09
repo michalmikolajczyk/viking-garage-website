@@ -1,3 +1,39 @@
+@font-face {
+    font-family: "Junicode";
+    src: url("/assets/fonts/Junicode.woff") format("woff"),
+         url("/assets/fonts/Junicode.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/assets/fonts/Junicode-Bold.woff") format("woff"),
+         url("/assets/fonts/Junicode-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/assets/fonts/Junicode-Italic.woff") format("woff"),
+         url("/assets/fonts/Junicode-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/assets/fonts/Junicode-BoldItalic.woff") format("woff"),
+         url("/assets/fonts/Junicode-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+.junicode {
+    font-family: "Junicode";
+}
+
 body {
   background-color: #000;
   font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,12 +68,13 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
+  color: #eee;
+  text-decoration: underline;
+  transition: .21s color ease;
 }
 
 a:hover {
-  color:#069;
+  color:#bb0b00;
 }
 
 a small {
@@ -52,14 +89,27 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:100%;
   margin:0 auto;
-  padding: 233px 89px 21px;
-  background-color: rgba(0,0,0,0.55);
+  padding: 233px 0 21px;
+  background-color: rgba(0,0,0,0.21);
+}
+
+.wrapper > * {
+  width: 62%;
+  margin: 0 auto;
+}
+
+.wrapper > section {
+  margin-top: 377px;
+}
+
+section.main-section article {
+  margin-bottom: 34px;
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #eee;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -73,9 +123,9 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #eee;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #eee;
   overflow-x: auto;
 }
 
@@ -87,7 +137,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #eee;
 }
 
 dt {
