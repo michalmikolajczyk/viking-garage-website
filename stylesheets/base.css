@@ -213,6 +213,11 @@ footer {
     word-wrap:break-word;
   }
 
+  .wrapper > * {
+    padding: 0;
+    width: 89%;
+  }
+
   pre, code {
     word-wrap:normal;
   }
