@@ -1,113 +1,136 @@
-.background-video {
-  position: fixed;
-  z-index: -99;
-  width: 100%;
-  height: 100%;
+.no-break {
+    white-space: nowrap;
 }
 
-.punchline, .call-to-action {
-  text-align: center;
+.background-video {
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+}
+
+.punchline,
+.call-to-action {
+    text-align: center;
 }
 
 .title {
-  color: white;
-  letter-spacing: 8px;
-  font-size: 55px;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 55px;
 }
 
 .r-replace {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .raido {
-  position: absolute;
-  font-weight: normal;
-  color: #000000;
-  transition: 2584ms color ease;
+    position: absolute;
+    font-weight: normal;
+    color: #000000;
+    transition: 2584ms color ease;
 }
 
 .title .r-replace {
-  width: 42px;
+    width: 42px;
 }
 
 .title .raido {
-  font-size: 89px;
-  top: -64px;
-  left: 2px;
+    font-size: 89px;
+    top: -64px;
+    left: 2px;
 }
 
 .small-title {
-  margin-left: 8px;
-  letter-spacing: 3px;
+    margin-left: 8px;
+    letter-spacing: 3px;
 }
 
 .small-title .r-replace {
-  width: 15px;
+    width: 15px;
 }
 
 .small-title .raido {
-  font-size: 38px;
-  top: -26px;
-  left: 0px
+    font-size: 38px;
+    top: -26px;
+    left: 0px
 }
 
 .motto {
-  font-family: 'Loved by the King', cursive;
-  font-size: 34px;
-  margin-top: 34px;
-  color: #eee;
+    font-family: 'Loved by the King', cursive;
+    font-size: 34px;
+    margin-top: 34px;
+    color: #eee;
 }
 
 .contact-details {
-  list-style: none;
-  border: #eee 1px solid;
-  padding: 21px;
-  color: #bb0b00;
-  font-weight: bolder;
+    list-style: none;
+    border: #eee 1px solid;
+    padding: 21px;
+    color: #bb0b00;
+    font-weight: bolder;
 }
 
 .call-to-action {
-  margin: 89px 0px;
+    margin: 89px 0px;
 }
 
 .call-to-action a {
-  font-size: 34px;
-  text-decoration: underline;
-  color: #eee;
+    font-size: 34px;
+    text-decoration: underline;
+    color: #eee;
 }
 
 .call-to-action a:hover {
-  color: #bb0b00;
+    color: #bb0b00;
 }
+
 
 /* basic styles */
 
 .off-white {
-  color: #eee;
+    color: #eee;
 }
 
 .runic-red {
-  color: #bb0b00;
+    color: #bb0b00;
 }
 
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .blink {
-  animation-duration: 10946ms;
-  animation-name: blink;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
+    animation-duration: 10946ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
+
 @keyframes blink {
-  0% { opacity: 1 }
-  2% { opacity: .89 }
-  5% { opacity: 1 }
-  8% { opacity: .55 }
-  13% { opacity: 1 }
-  21% { opacity: .34 }
-  34% { opacity: 1 }
-  100% { opacity: 1 }
+    0% {
+        opacity: 1
+    }
+    2% {
+        opacity: .89
+    }
+    5% {
+        opacity: 1
+    }
+    8% {
+        opacity: .55
+    }
+    13% {
+        opacity: 1
+    }
+    21% {
+        opacity: .34
+    }
+    34% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
 }

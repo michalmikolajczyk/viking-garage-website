@@ -1,31 +1,27 @@
 @font-face {
     font-family: "Junicode";
-    src: url("/assets/fonts/Junicode.woff") format("woff"),
-         url("/assets/fonts/Junicode.ttf") format("truetype");
+    src: url("/assets/fonts/Junicode.woff") format("woff"), url("/assets/fonts/Junicode.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Junicode";
-    src: url("/assets/fonts/Junicode-Bold.woff") format("woff"),
-         url("/assets/fonts/Junicode-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/Junicode-Bold.woff") format("woff"), url("/assets/fonts/Junicode-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Junicode";
-    src: url("/assets/fonts/Junicode-Italic.woff") format("woff"),
-         url("/assets/fonts/Junicode-Italic.ttf") format("truetype");
+    src: url("/assets/fonts/Junicode-Italic.woff") format("woff"), url("/assets/fonts/Junicode-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Junicode";
-    src: url("/assets/fonts/Junicode-BoldItalic.woff") format("woff"),
-         url("/assets/fonts/Junicode-BoldItalic.ttf") format("truetype");
+    src: url("/assets/fonts/Junicode-BoldItalic.woff") format("woff"), url("/assets/fonts/Junicode-BoldItalic.ttf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
@@ -35,202 +31,215 @@
 }
 
 body {
-  background-color: #000;
-  font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#eee;
-  font-weight:400;
-  margin: 0;
+    background-color: #000;
+    font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #eee;
+    font-weight: 400;
+    margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    margin: 0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+    margin: 0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
+h1,
+h2,
+h3 {
+    line-height: 1.1;
 }
 
 h1 {
-  font-size:28px;
+    font-size: 28px;
 }
 
 h2 {
-  color:#eee;
+    color: #eee;
 }
 
-h3, h4, h5, h6 {
-  color:#ddd;
+h3,
+h4,
+h5,
+h6 {
+    color: #ddd;
 }
 
 a {
-  color: #eee;
-  text-decoration: underline;
-  transition: .21s color ease;
+    color: #eee;
+    text-decoration: underline;
+    transition: .21s color ease;
 }
 
 a:hover {
-  color:#bb0b00;
+    color: #bb0b00;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
+    font-size: 11px;
+    color: #777;
+    margin-top: -0.3em;
+    display: block;
 }
 
 a:hover small {
-  color:#777;
+    color: #777;
 }
 
 .wrapper {
-  width:100%;
-  margin:0 auto;
-  padding: 233px 0 21px;
-  background-color: rgba(0,0,0,0.21);
+    width: 100%;
+    margin: 0 auto;
+    padding: 233px 0 21px;
+    background-color: rgba(0, 0, 0, 0.21);
 }
 
-.wrapper > * {
-  width: 62%;
-  margin: 0 auto;
+.wrapper>* {
+    width: 62%;
+    margin: 0 auto;
 }
 
-.wrapper > section {
-  margin-top: 377px;
+.wrapper>section {
+    margin-top: 377px;
 }
 
 section.main-section article {
-  margin-bottom: 34px;
+    margin-bottom: 34px;
 }
 
 blockquote {
-  border-left:1px solid #eee;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
+    border-left: 1px solid #eee;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
 }
 
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-  font-size:12px;
+code,
+pre {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color: #333;
+    font-size: 12px;
 }
 
 pre {
-  padding:8px 15px;
-  background: #eee;
-  border-radius:5px;
-  border:1px solid #eee;
-  overflow-x: auto;
+    padding: 8px 15px;
+    background: #eee;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    overflow-x: auto;
 }
 
 table {
-  width:100%;
-  border-collapse:collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #eee;
+th,
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
 }
 
 dt {
-  color:#444;
-  font-weight:700;
+    color: #444;
+    font-weight: 700;
 }
 
 th {
-  color:#444;
+    color: #444;
 }
 
 img {
-  max-width:100%;
+    max-width: 100%;
 }
 
 strong {
-  color:#FFF;
-  font-weight:700;
+    color: #FFF;
+    font-weight: 700;
 }
 
 section {
-  padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
 small {
-  font-size:11px;
+    font-size: 11px;
 }
 
 hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
+    border: 0;
+    background: #e5e5e5;
+    height: 1px;
+    margin: 0 0 20px;
 }
 
 footer {
-  -webkit-font-smoothing:subpixel-antialiased;
-  border-top: 1px dashed white;
-  margin-top: 34px;
-  padding-top: 55px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border-top: 1px dashed white;
+    margin-top: 34px;
+    padding-top: 55px;
 }
 
-@media print, screen and (max-width: 960px) {
-
-  div.wrapper {
-    width:100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin:0;
-  }
-
-  div.wrapper > * {
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding-top:20px;
-    padding-bottom:20px;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
+@media print,
+screen and (max-width: 960px) {
+    div.wrapper {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    div.wrapper>* {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    section {
+        border: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 0 20px;
+    }
+    header a small {
+        display: inline;
+    }
 }
 
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  .wrapper > * {
-    padding: 0;
-    width: 89%;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
+@media print,
+screen and (max-width: 720px) {
+    body {
+        word-wrap: break-word;
+    }
+    .wrapper>* {
+        padding: 0;
+        max-width: 89%;
+        width: auto;
+    }
+    pre,
+    code {
+        word-wrap: normal;
+    }
 }
 
-@media print, screen and (max-width: 480px) {
-
-}
+@media print,
+screen and (max-width: 480px) {}
 
 @media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
+    body {
+        padding: 0.4in;
+        font-size: 12pt;
+        color: #444;
+    }
 }
