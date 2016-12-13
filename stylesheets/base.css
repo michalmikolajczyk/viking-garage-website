@@ -200,6 +200,7 @@ screen and (max-width: 960px) {
         padding-left: 0;
         padding-right: 0;
         margin: 0;
+        padding-top: 144px;
     }
     div.wrapper>* {
         padding-left: 34px;
@@ -208,7 +209,7 @@ screen and (max-width: 960px) {
     section {
         border: 1px solid #e5e5e5;
         border-width: 1px 0;
-        padding-top: 20px;
+        padding-top: 34px;
         padding-bottom: 20px;
         margin: 0 0 20px;
     }
@@ -226,6 +227,9 @@ screen and (max-width: 720px) {
         padding: 0;
         max-width: 89%;
         width: auto;
+    }
+    .wrapper>section {
+        padding-top: 34px;
     }
     pre,
     code {
