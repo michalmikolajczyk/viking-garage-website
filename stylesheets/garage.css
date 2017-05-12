@@ -82,6 +82,7 @@
     margin: 0 auto;
     display: block;
     line-height: 69px;
+    position: relative;
 }
 
 @media print,
@@ -101,7 +102,23 @@ screen and (min-width: 1280px) {
     }
 }
 
+@media print,
+screen and (max-width: 960px) {
+    .small-only {
+        display: inline;
+    }
+    .small-title {
+        margin-left: 2px;
+    }
+}
+
 .call-to-action a {
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
     color: #fff;
     text-decoration: none;
     border: 0;

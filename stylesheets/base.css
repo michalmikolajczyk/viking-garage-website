@@ -104,6 +104,8 @@ a:hover small {
     margin: 0 auto;
     padding: 144px 0 0;
     /*background-color: rgba(0, 0, 0, 0.21);*/
+    overflow-x: hidden;
+    position: relative;
 }
 
 .wrapper>* {
@@ -209,11 +211,15 @@ footer {
     color: #fff;
 }
 
+.small-only {
+    display: none;
+}
+
 @media print, screen
 and (max-width: 1024px) {
     img.full-size-img {
         position: relative;
-        left: -31%;
+        margin-left: -31%;
         width: 162%;
         max-width: none;
 
@@ -289,6 +295,12 @@ screen and (max-width: 720px) {
     .footer-inner {
         padding: 34px 34px 21px;
         width: auto;
+    }
+    img.full-size-img {
+        width: 122%;
+        margin-left: -11%;
+        max-width: none;
+
     }
 }
 
