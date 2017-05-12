@@ -102,7 +102,7 @@ a:hover small {
 .wrapper {
     width: 100%;
     margin: 0 auto;
-    padding: 144px 0 21px;
+    padding: 144px 0 0;
     /*background-color: rgba(0, 0, 0, 0.21);*/
 }
 
@@ -116,7 +116,9 @@ a:hover small {
 }
 
 section.main-section article {
-    margin-bottom: 34px;
+    margin-top: 55px;
+    margin-bottom: 89px;
+    text-align: center;
 }
 
 blockquote {
@@ -188,9 +190,20 @@ hr {
 
 footer {
     -webkit-font-smoothing: subpixel-antialiased;
-    border-top: 1px dashed white;
+    background-color: #000;
+    width: 100% !important;
     margin-top: 34px;
-    padding-top: 55px;
+}
+
+.footer-inner {
+    width: 62%;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 55px 0px 34px;
+}
+
+.footer-inner a {
+    color: #fff;
 }
 
 @media print,
@@ -207,14 +220,31 @@ screen and (max-width: 960px) {
         padding-right: 34px;
     }
     section {
-        border: 1px solid #222;
-        border-width: 1px 0;
+        /*border: 1px solid #222;*/
+        /*border-width: 1px 0;*/
         padding-top: 34px;
         padding-bottom: 20px;
-        margin: 0 0 20px;
+        margin: 21px 0 34px;
+    }
+    section.main-section article {
+        margin-top: 55px;
+        margin-bottom: 89px;
+        text-align: center;
     }
     header a small {
         display: inline;
+    }
+    div.wrapper > footer {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        margin-top: 55px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-inner {
+        padding: 34px 34px 21px;
+        width: auto;
     }
 }
 
@@ -234,6 +264,18 @@ screen and (max-width: 720px) {
     pre,
     code {
         word-wrap: normal;
+    }
+    div.wrapper > footer {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        margin-top: 55px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-inner {
+        padding: 34px 34px 21px;
+        width: auto;
     }
 }
 

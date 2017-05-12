@@ -76,10 +76,17 @@
     margin: 89px 0px;
 }
 
-.call-to-action a {
+.call-to-action span {
+    padding: 21px 34px;
+    background-color: #000;
     font-size: 34px;
-    text-decoration: underline;
-    color: #000;
+}
+
+
+.call-to-action a {
+    color: #fff;
+    text-decoration: none;
+    border: 0;
 }
 
 .call-to-action a:hover {
@@ -133,12 +140,4 @@
     100% {
         opacity: 1
     }
-}
-
-.call-to-action a.performance-button {
-    padding: 21px 34px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    border: 0;
 }
