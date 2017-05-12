@@ -73,7 +73,7 @@
 }
 
 .call-to-action {
-    margin: 89px 0px;
+    margin: 55px 0px 89px;
 }
 
 .call-to-action span {
@@ -84,6 +84,22 @@
     line-height: 69px;
 }
 
+@media print,
+screen and (min-width: 961px) {
+    .call-to-action {
+        margin: 89px 0px;
+    }
+    .call-to-action span {
+        width: 62%;
+    }
+}
+
+@media print,
+screen and (min-width: 1280px) {
+    .call-to-action span {
+        width: 38%;
+    }
+}
 
 .call-to-action a {
     color: #fff;
