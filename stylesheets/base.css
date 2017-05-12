@@ -209,13 +209,16 @@ footer {
     color: #fff;
 }
 
-/*@media print, screen
+@media print, screen
 and (max-width: 1024px) {
     img.full-size-img {
-        margin: 0 -19%;
+        position: relative;
+        left: -31%;
+        width: 162%;
         max-width: none;
+
     }
-}*/
+}
 
 @media print,
 screen and (max-width: 960px) {
