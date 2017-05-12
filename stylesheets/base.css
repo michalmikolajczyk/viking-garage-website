@@ -31,9 +31,9 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #FFF;
     font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #eee;
+    color: #000;
     font-weight: 400;
     margin: 0;
 }
@@ -68,18 +68,18 @@ h1 {
 }
 
 h2 {
-    color: #eee;
+    color: #000;
 }
 
 h3,
 h4,
 h5,
 h6 {
-    color: #ddd;
+    color: #222;
 }
 
 a {
-    color: #eee;
+    color: #000;
     text-decoration: underline;
     transition: .21s color ease;
 }
@@ -103,7 +103,7 @@ a:hover small {
     width: 100%;
     margin: 0 auto;
     padding: 233px 0 21px;
-    background-color: rgba(0, 0, 0, 0.21);
+    /*background-color: rgba(0, 0, 0, 0.21);*/
 }
 
 .wrapper>* {
@@ -120,7 +120,7 @@ section.main-section article {
 }
 
 blockquote {
-    border-left: 1px solid #eee;
+    border-left: 1px solid #222;
     margin: 0;
     padding: 0 0 0 20px;
     font-style: italic;
@@ -150,7 +150,7 @@ th,
 td {
     text-align: left;
     padding: 5px 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
 }
 
 dt {
@@ -167,7 +167,7 @@ img {
 }
 
 strong {
-    color: #FFF;
+    color: #000;
     font-weight: 700;
 }
 
@@ -181,7 +181,7 @@ small {
 
 hr {
     border: 0;
-    background: #e5e5e5;
+    background: #222;
     height: 1px;
     margin: 0 0 20px;
 }
@@ -207,7 +207,7 @@ screen and (max-width: 960px) {
         padding-right: 34px;
     }
     section {
-        border: 1px solid #e5e5e5;
+        border: 1px solid #222;
         border-width: 1px 0;
         padding-top: 34px;
         padding-bottom: 20px;

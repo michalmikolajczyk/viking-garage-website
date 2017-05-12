@@ -15,7 +15,7 @@
 }
 
 .title {
-    color: white;
+    color: #000;
     letter-spacing: 8px;
     font-size: 55px;
 }
@@ -26,7 +26,7 @@
 }
 
 .raido {
-    position: absolute;
+    position: relative;
     font-weight: normal;
     color: #000000;
     transition: 2584ms color ease;
@@ -38,7 +38,7 @@
 
 .title .raido {
     font-size: 89px;
-    top: -64px;
+    top: 9px;
     left: 2px;
 }
 
@@ -53,7 +53,7 @@
 
 .small-title .raido {
     font-size: 38px;
-    top: -26px;
+    top: 5px;
     left: 0px
 }
 
@@ -61,7 +61,7 @@
     font-family: 'Loved by the King', cursive;
     font-size: 34px;
     margin-top: 34px;
-    color: #eee;
+    color: #000;
 }
 
 .contact-details {
@@ -79,7 +79,7 @@
 .call-to-action a {
     font-size: 34px;
     text-decoration: underline;
-    color: #eee;
+    color: #000;
 }
 
 .call-to-action a:hover {
@@ -90,7 +90,7 @@
 /* basic styles */
 
 .off-white {
-    color: #eee;
+    color: #000;
 }
 
 .runic-red {
@@ -133,4 +133,12 @@
     100% {
         opacity: 1
     }
+}
+
+.call-to-action a.performance-button {
+    padding: 21px 34px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
 }
