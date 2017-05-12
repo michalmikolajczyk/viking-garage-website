@@ -118,6 +118,9 @@ a:hover small {
 section.main-section article {
     margin-top: 55px;
     margin-bottom: 89px;
+}
+
+section.main-section article.align-center {
     text-align: center;
 }
 
@@ -229,7 +232,6 @@ screen and (max-width: 960px) {
     section.main-section article {
         margin-top: 55px;
         margin-bottom: 89px;
-        text-align: center;
     }
     header a small {
         display: inline;
